@@ -17,7 +17,7 @@
 - Tag pembuka ``<head>`` berisi informasi tentang halaman HTML sampai dengan tag penutup ``</head>`` , biasanya dalam tag ``<title>`` untuk memberikan informasi judul halaman HTML.
 - Apapun tag yang berada di antara tag pembuka ``<body>`` sampai dengan tag penutup ``</body>`` akan tampil di web browser.
 
-![html](aset/html.png)
+![html](gambar/html.png)
 # Anatomi Elemen HTML
 
 ```HTML
@@ -28,7 +28,7 @@
 - `href` adalah nama atribut yang berfungsi untuk menambahkan link.
 - https://www.google.com adalah nilai atribut atau sebuah link yang akan dimasukkan.
 - `Klik Google !` adalah konten atau isi tag yang akan di tampilkan pada web.
-![[tag_a.png]]
+![gambar](gambar/tag_a.png)
 
 # Tag Dasar
 ## Heading 
@@ -51,7 +51,7 @@
 </html>
 ```
 
-![[heading.png]]
+![heading](gambar/heading.png)
 ## Paragraf
 ### Tag ``<p>``
 Tag Paragraf biasanya digunakan untuk paragraf teks atau artikel. Paragraf pada HTML dibuat dengan tag ``<p>``.
@@ -84,7 +84,7 @@ adalah sebuah tag yang berfungsi untuk menambahkan garis horizontal.
 </html>
 ```
 ### Hasil
-![[paragraf 1.png]]
+![paragraf](gambar/paragraf.png)
 
 ### Align
 `Align` merupakan atribut yang digunakan untuk perataan teks pada paragraf.
@@ -112,7 +112,7 @@ adalah sebuah tag yang berfungsi untuk menambahkan garis horizontal.
     </body>
 </html>
 ```
-![[PARAGRAF (2).png]]
+![gambar](gambar/align.png)
 #### Align left
 Fungsi `align left` untuk merapikan teks atau kalimat yang sudah diketik agar diatur ke sebelah kiri.
 #### Align Right
@@ -131,7 +131,7 @@ contoh:
 ```
 
 hasil:
-![komentar](komentar.png)
+![komentar](gambar/komentar.png)
 ## List
 `List` adalah fungsi dalam HTML yang digunakan untuk menampilkan daftar dari sesuatu. Dalam HTML, tag list dari 2 jenis, ``<ol>`` ordered list (berurutan) dan ``<ul>`` unordered list (tidak berurutan). Ordered list akan ditampilkan dengan angka tau huruf, sedangkan unordered list adalah bulatan atau kotak ataupun simbol lainnya.
 
@@ -165,7 +165,7 @@ Contoh:
 ```
 
  Hasil:
- ![list](list.png)
+ ![list](gambar/list.png)
 
 ## Link
 `Link` dapat ditemukan di hampir semua halaman web. Link/tautan memungkinkan sebuah teks yang ketika di klik pindah ke halaman lainnya. HTML menggunakan tag ``<a>`` untuk keperluan ini. Link ditulis dengan ``<a>`` yang merupakan singkatan cari `anchor (jangkar)`.
@@ -191,7 +191,7 @@ Contoh:
 ```
 
 Hasil:
-![link](link.png)
+![link](gambar/link.png)
 
 ## Multimedia
 ### Gambar
@@ -220,10 +220,10 @@ Contoh:
 ```
 
 Hasil:
-![logo](sslogo.png)
+![logo](gambar/sslogo.png)
 
 Berikut letak gambar yang dimuat pada website di atas:
-![logo](ssfile.png)
+![logo](gambar/ssfile.png)
 
 ### Video
 Penjelasan:
@@ -243,7 +243,7 @@ Contoh:
 ```
 
 Hasil:
-![[video.png]]
+![video](gambar/video.png)
 ### Audio
 Penjelasan:
 Seperti yang telah dibahas sebelumnya bahwasanya tag ``<audio>`` merupakan bagian fitur HTML5 untuk menampilkan audio asli di halaman web tanpa memerlukan flash sebagaimana pada HTML versi 4. Yang penting untuk diatur pada tag ini adalah atribut src yang berfungsi untuk mengidentifikasi sumber media. Selain itu, terdapat pula atribut controls agar pengguna dapat memutar dan menjeda media.
@@ -262,7 +262,7 @@ Contoh:
 ```
 
 Hasil:
-![[audio.png]]
+![audio](gambar/audio.png)
 ### iframe
 Penjelasan:
 Elemen ``<iframe>`` dapat digunakan untuk menampilkan halaman website lain dalam suatu website. atau menampilkan dokumen HTML lain dalam sebuah website. Mudahnya, bisa dibilang website dalam website.
@@ -283,7 +283,7 @@ Contoh:
 ```
 
 Hasil:
-![[IFRAME.png]]
+![iframe](gambar/IFRAME.png)
 ## Tabel
 ### Tabel 1
 Penjelasan:
@@ -318,7 +318,7 @@ Contoh:
 ```
 
 Hasil:
-![[tabel.png]]
+![tabel](gambar/tabel.png)
 ### Tabel 2
 Penjelasan:
 Perhatikan bahwa pada tag ``<table>`` terdapat sebuah atribut border. Atribut border digunakan untuk memberikan nilai garis tepi dari tabel. Nilai ini dalam ukuran pixel. `border="1"`, berarti kita menginstruksikan kepada web browser bahwa tabel tersebut akan memiliki garis tepi sebesar 1 pixel. Jika tidak ditambahkan, secara default tabel tidak memiliki garis tepi.
@@ -372,7 +372,7 @@ Contoh:
 ```
 
 Hasil:
-![[tabel2.png]]
+![tabel](gambar/tabel2.png)
 ### Tabel Tugas
 Penjelasan:
 - `border` yaitu sebuah atribut yang mengatur ketebalan garis pinggir dari tabel.
@@ -410,7 +410,7 @@ Contoh:
 </html>
 ```
 Hasil:
-![[table.png]]
+![tabel](gambar/table.png)
 Analisis:
 Untuk tabel "Nama Hari" & "Nama Bulan" merupakan 2 kolom tetapi di tambahkan atribut `colspan` yang membuat 2 kolom menjadi 1.
 Begitupun dengan kolom "Juni" yang harusnya terdapat 2 baris tetapi di tambahkan atribut rowspan yang membuat 2 baris menjadi 1.
@@ -534,7 +534,7 @@ Elemen ``<button>`` yang berada di dalam sebuah ``form`` akan otomatis dianggap 
 ```
 
 Hasil:
-![[form.png|300]]
+![gambar](gambar/form.png)
 
 Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
 - `name` - digunakan sebagai nama variabel yang akan diproses oleh web server (contoh menggunakawn PHP)
@@ -616,7 +616,7 @@ Contoh:
 ```
 
 Hasil:
-![[form_tugas.png|300]]
+![gambar](gambar/form_tugas.png)
 
 ## DIV & SPAN
 ### Penjelasan
@@ -644,6 +644,6 @@ Hasil:
 </html>
 ```
 ### Hasil
-![[Screenshot 2024-02-24 210501.png|500]]
+![gambar](gambar/div.png)
 
 
